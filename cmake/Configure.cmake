@@ -88,7 +88,6 @@ set(include_files_list
     stdbool.h
     stdint.h
     stdlib.h
-    strings.h
     string.h
     sys/ipc.h
     sys/shm.h
@@ -107,7 +106,6 @@ set(include_files_list
 check_includes(include_files_list)
 
 set(functions_list
-    getline
     snprintf
 )
 check_functions(functions_list)
